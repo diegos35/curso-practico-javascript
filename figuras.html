@@ -19,10 +19,12 @@
             Calcula el área y perimetro de un cuadrado
         </h2>
         <form>
-            <label for=""></label>
-            <input type="number">
-            <button>Calcular el perimetro</button>
-            <button> Calcular área </button>    
+            <label for="InputCuadrado"> Escribe cuánto mide cada lado de tu cuadrado</label>
+            <input id="InputCuadrado" type="number">
+            <button type="button" onclick="calcularPerimetroCuadrado()"> Calcular el perimetro</button>
+            <button> Calcular área </button>   
+            
+            <h1 id="ResultP"></h1>
         </form>
     </section>
     <script src="./figuras.js"></script>
