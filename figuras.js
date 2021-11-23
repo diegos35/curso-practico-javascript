@@ -2,7 +2,7 @@
     const ladoCuadro = 5;   
     console.log("los lados del cuadro miden:"+ladoCuadro);
 
-    const perimetroCuadrado = ladoCuadro * 4;
+    const perimetroCuadrado = (ladoCuadro) => ladoCuadro * 4 ;
     console.log("El perimetro es "+ perimetroCuadrado);
 
     const areaCuadrado = ladoCuadro * ladoCuadro;
